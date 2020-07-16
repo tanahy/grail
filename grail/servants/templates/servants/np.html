@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for servant in Servants %}
+	<div class="servant-info">
+		{{ servant.name  }}
+	</div>	
+{% endfor %}
+
+{% endblock content %}
